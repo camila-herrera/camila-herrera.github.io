@@ -1,0 +1,98 @@
+body {/*todo*/
+    color: white;
+    background-color: black;    
+}
+header{/*contenedor de titulo e imgprincipal*/
+    display: contents;
+}
+h1 {/*titulo*/
+        display: flex;
+        justify-content: center;
+        font: normal normal medium 50px/59px Raleway;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+}
+.imgp {/*img principal*/
+
+
+    
+        height: 800 px;
+        width: 100%;
+        size: cover;
+        position: center;
+    }
+main {/*contenedor de info principal*/
+    display: contents;
+}
+.informacion {/*texto e img*/
+    display: flex;
+    justify-content: center;
+    gap: 106px;
+    padding: 75px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.texto {/*texto sobre iguana*/
+    text-align: left;
+    font: normal normal 300 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.imgcl {/*img al lado de tex*/
+    display: flex;
+}
+.caracteristicas {/*titulo e iconos*/
+    color: white;
+    text-align: center;
+    background-color: #1E1A13;
+    padding: 74px;
+    gap: 10px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.tituloiconos {/*titutlo iconos*/
+    display: flex;
+    justify-content: center;
+}
+.atributo {/*caja iconos*/    
+    display: flex;
+        justify-content: space-evenly;
+        margin-left: 50px;
+      }
+.icono {/*iconos*/
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.galeria {/*contedor de img*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: black;
+    padding: 7vh;
+}
+.img {/*imgs*/
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding: 1vh;
+}    
+footer {/*pie*/
+    display: flex;
+    background-color: #1E1A13;
+    justify-content: space-evenly;
+    padding: 2vh;
+    text-align: left;
+    font: normal normal 300 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
