@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#FFCCCC, #CC3333);
+}
+.container {
+    border: solid 1px rgba(255, 255, 255, 0.2);
+}
+table {
+    color: #000000;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+thead {
+    background: #FF9966;
+}
+th {
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+tbody tr {
+    cursor: pointer;
+}
+tbody tr :hover {
+    background: #FF9966;
+}
